@@ -1,0 +1,61 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+
+form.form{
+  color:black;
+  display: flex;
+  position: relative;
+  margin-left: 4.3vw;
+  flex-direction: column;
+  row-gap: 0.1vw;
+  border: 2px solid white;
+  padding: 2vw;
+  border-radius: 8px;
+  height: auto;
+  width: 20vw;
+  background-color: white;
+  margin-left:2vw;
+  box-shadow: 4px 4px 8px black;
+}
+
+input{
+  margin-top: 0.1vw;
+  background-color: whitesmoke;
+  color: black;
+}
+
+label{
+  margin-top: 0.1vw;
+}
+
+input.button{
+  margin-top: 2vw;
+  background-color: red;
+  color:white;
+  cursor: pointer;
+  height:3vw;
+  font-size:1.5vw;
+}
+
+p{
+  margin: 2px;
+  color: rgb(180, 62, 62);
+  font-weight: 600;
+}
+
+h1{
+  color: black;
+  text-align:center;
+  text-shadow:3px 3px 20px grey;
+}
+
+#reg{
+  color: rgb(223, 237, 249);
+  background-color: rgb(99, 64, 94);
+  border-radius: 7px;
+  text-align: center;
+  margin-top: -1vw;
+}
